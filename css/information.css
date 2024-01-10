@@ -1,0 +1,13 @@
+hr {
+    margin: 0;
+}
+
+.information {
+    background-color: var(--primary-color);
+    padding: 24px;
+}
+
+.information__title {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}

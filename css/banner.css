@@ -38,7 +38,7 @@
 }
 
 .banner__search::placeholder {
-    background: url("../imgs/lupa.svg") no-repeat;
+    background: url("../imgs/icons/lupa.svg") no-repeat;
     background-position: 10%;
     color: var(--primary-color);
     font-family: var(--main-font-family);

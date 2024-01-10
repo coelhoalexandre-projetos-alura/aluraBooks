@@ -16,11 +16,13 @@
 }
 
 .navigation__menu-hamburger {
-    background-image: url('../imgs/menu.svg');
+    background-image: url('../imgs/icons/menu.svg');
 
     display: inline-block;
     width: 36px;
     height: 24px;
+
+    cursor: pointer;
 }
 
 .menu-list {
@@ -29,6 +31,7 @@
     top: 100%;
     left: 0%;
     width: 70vw;
+    z-index: 2;
 }
 
 .container__btn {

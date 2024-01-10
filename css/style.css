@@ -2,16 +2,24 @@
 
 @import url('./header.css');
 @import url('./banner.css');
+@import url('./carousel.css');
+@import url('./card.css');
+@import url('./topics.css');
+@import url('./contact.css');
+@import url('./information.css');
 
 :root {
     --bg-color: #EBECEE;
     --primary-color: #FFFFFF;
     --secondary-color: #EB9B00;
+    --secondary-hover-color: #d69004;
     --tertiary-color: #002F52;
     --tertiary-degrade-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     /* --aside-bg-color: linear-gradient(to right, #002F52 100%, #326589 100%) */
+    --card-text-color: rgba(0, 0, 0, 0.85);
     
     --main-font-family: 'Poppins', sans-serif;;
+
 }
 
 body {
