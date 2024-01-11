@@ -41,10 +41,48 @@
 
             </ul>
             <img src="./imgs/icons/logo.svg" alt="Logo da AluraBooks">
+            <h1 class="container__title"><strong class="container__title--bold">Alura</strong>Books</h1>
         </div>
 
-        <div class="container">
-            <a href="#"><img src="./imgs/icons/favoritos.svg" alt="Meus Favoritos"></a>
+        <ul class="options">
+            <input type="checkbox" name="options__menu" id="options-menu" class="options__btn">
+            <label for="options-menu">
+
+                <li class="options__item">Categorias</li>
+
+            </label>          
+            <li class="options__item"><a href="#" class="options__link">Favoritos</a></li>
+            <li class="options__item"><a href="#" class="options__link">Minha estante</a></li>
+
+            <ul class="menu-list">
+
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Programação</a>
+                </li>
+
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Front-end</a>
+                </li>
+
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Infraestrutura</a>
+                </li>
+
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Business</a>
+                </li>
+                
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Desing & UX</a>
+                </li>
+
+            </ul>
+            
+            
+        </ul>
+
+        <div class="container container--spaced">
+            <a href="#" class="container__icon--transparent"><img src="./imgs/icons/favoritos.svg" alt="Meus Favoritos"></a>
             <a href="#"><img src="./imgs/icons/sacola.svg" alt="Carrinho de Compras"></a>
             <a href="#"><img src="./imgs/icons/usuario.svg" alt="Meu Perfil"></a>
         </div>
@@ -52,7 +90,7 @@
 
     <main>
         <section class="banner">
-            <h1 class="banner__title">Já sabe por onde começar?</h1>
+            <h2 class="banner__title">Já sabe por onde começar?</h2>
             <p class="banner__text">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
             <input type="search" id="search" class="banner__search" placeholder=" Qual será sua próxima leitura?">
         </section>
@@ -201,8 +239,10 @@
     </section>
 
     <section class="contact">
-        <h2 class="contact__title">Fique por dentro das novidades!</h2>
-        <p class="contact__text">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contact__description">
+            <h2 class="contact__title">Fique por dentro das novidades!</h2>
+            <p class="contact__text">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email" name="email" id="email" class="contact__email" placeholder="Cadastre seu e-mail">
     </section>
     </main>
@@ -215,16 +255,50 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper('.swiper', {
-            spaceBetween: 20,
-            slidesPerView: 2,
-            centeredSlides: true,
-            loop: true,
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
+        
+        
+
+        swiperFunction = function() {
+            if(window.innerWidth < 1024 ) {
+                const swiper = new Swiper('.swiper', {
+                    spaceBetween: 20,
+                    slidesPerView: 2,
+                    centeredSlides: true,
+                    loop: true,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        type: 'bullets',
+                    }
+            });
+        
+            } else if(window.innerWidth >= 1024 ) {
+                
+                swiper = new Swiper('.swiper', {
+                spaceBetween: 75,
+                slidesPerView: 3,
+                centeredSlides: false,
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                    hideOnClick: true,
+                },
+                });
             }
-          });
+        }
+        
+        swiperFunction(),
+
+        window.onresize = function(){
+            swiperFunction()
+        }
+
+            
+            
     </script>
 </body>
 </html>

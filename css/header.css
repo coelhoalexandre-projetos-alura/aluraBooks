@@ -55,20 +55,17 @@
 
 .menu-list__item {
     background-color: var(--primary-color);
-
-    padding: 16px 24px;
-}
-
-.menu-list__item:hover {
-    background-color: var(--bg-color);
 }
 
 .menu-list__link {
+    display: block;
     background: var(--tertiary-degrade-color);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
+    padding: 16px 24px;
+
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1.6rem;
@@ -76,3 +73,101 @@
     font-weight: 400;
 }
 
+.menu-list__link:hover {
+    background: var(--tertiary-degrade-color);
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    -webkit-text-fill-color: inherit;
+    color: var(--primary-color);
+}
+
+.container__title, .options {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .navigation {
+        justify-content: space-around;
+    }
+
+    .container {
+        gap: 0;
+    }
+
+    .container--spaced {
+        justify-content: space-between;
+        width: 12%;
+    }
+
+    .container__title {
+        display: block;
+        align-self: flex-end;
+
+        margin-left: 10px;
+
+        color: var(--header-color);
+        font-family: var(--h1-font-family);
+        font-size: 3rem;
+        line-height: 3rem;
+        
+    }
+
+    .container__title--bold {
+        font-weight: 700;
+    }
+
+    .options {
+        display: flex;
+        align-items: center;
+    }
+
+    .options__btn {
+        display: none;
+    }
+
+    .options__item {
+        align-self: center;
+        height: 45%;
+        padding: 10px 16px;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        text-transform: uppercase;
+    }
+    
+    .options__item:hover {
+        background: var(--tertiary-degrade-color);
+        color: var(--primary-color);
+    }
+
+    .options__btn:checked ~ .menu-list{
+        display: block;
+    }
+
+    .options label {
+        display: flex;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    .menu-list {
+        width: auto;
+        top: 75%;
+        left: auto;
+    }
+
+    .options__link {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .container__icon--transparent {
+        display: none;
+    }
+
+    .navigation__menu-hamburger {
+        display: none;
+    }
+}

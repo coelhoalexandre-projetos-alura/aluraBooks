@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
 
 @import url('./header.css');
 @import url('./banner.css');
@@ -10,15 +10,20 @@
 
 :root {
     --bg-color: #EBECEE;
+
     --primary-color: #FFFFFF;
+
     --secondary-color: #EB9B00;
     --secondary-hover-color: #d69004;
+
     --tertiary-color: #002F52;
     --tertiary-degrade-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    /* --aside-bg-color: linear-gradient(to right, #002F52 100%, #326589 100%) */
+
+    --header-color: #000000;
     --card-text-color: rgba(0, 0, 0, 0.85);
     
-    --main-font-family: 'Poppins', sans-serif;;
+    --main-font-family: 'Poppins', sans-serif;
+    --h1-font-family: 'Josefin Sans', sans-serif;
 
 }
 
