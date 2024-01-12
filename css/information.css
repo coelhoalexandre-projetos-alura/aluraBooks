@@ -62,3 +62,16 @@ hr {
     }
 }
 
+@media screen and (min-width: 1728px) {
+    .information {
+        justify-content: space-around;
+        padding: 56px 50px;
+    }
+
+    .information__list {
+        border-left: 1px solid var(--footer-title-color);
+        padding-left: 20px;
+    }
+    
+}
+

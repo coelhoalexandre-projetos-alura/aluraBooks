@@ -71,3 +71,14 @@
         line-height: 2.4rem;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .banner__search {
+        width: 30%;
+        padding: 16px 0;
+    }
+
+    .banner__search::placeholder {
+        background-position: 20%;
+    }
+}

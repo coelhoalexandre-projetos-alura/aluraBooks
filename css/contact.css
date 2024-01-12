@@ -69,4 +69,10 @@
     }
 }
 
+@media screen and (min-width: 1728px) {
+    .contact {
+        padding: 64px 17vw;
+    }
+}
+
 
