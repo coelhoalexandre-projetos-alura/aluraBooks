@@ -13,3 +13,52 @@ hr {
     line-height: 2.4rem;
 }
 
+.information__list {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .information {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 50px 70px 24px;
+    }
+
+    .information__title {
+        font-size: 2.4rem;
+        line-height: 3.6rem;
+    }
+
+    .information__list {
+        display: block;
+    }
+
+    .information__list__title {
+        margin-bottom: 25px;
+        color: var(--footer-title-color);
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        text-transform: uppercase;
+    }
+
+    .information__list__item {
+        display: flex;
+        align-items: center;
+        margin: 16px 0;
+    }
+
+    .information__list__link {
+        margin-left: 8px;
+        color: var(--footer-item-color);
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        text-decoration: none;
+    }
+
+    .information__list__link:hover {
+        color: var(--header-color);
+        font-weight: 500;
+        text-decoration: underline;
+    }
+}
+
