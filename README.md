@@ -14,15 +14,10 @@
 - [Objetivos do Projeto](#objetivos-do-projeto)
 - [Funcionalidades do Projeto](#funcionalidades-do-projeto)
 - [Tecnologias Utilizadas](#tecnolgias-utilizadas)
-  - [Front-end](#front-end)
-  - [Back-end](#back-end)
-  - [Implementação](#implementação)
-- [Processo de Desenvolvimento](#processo-de-desenvolvimento)
-  - [(Roteiro / Diario) de desenvolvimento](#roteiro--diario-de-desenvolvimento)
-  - [Layout Mobile](#layout-mobile)
-  - [Layout Web](#layout-web)
-  - [Modelo Conceitual](#modelo-conceitual)
-- [Contribuição](#contribuição)
+- [Layouts](#layouts)
+  - [Desktop Layout](#desktop-layout)
+  - [Tablet Layout](#tablet-layout)
+  - [Mobile Layout](#mobile-layout)
 - [Autor](#autores)
 
 ## Sobre o Projeto
@@ -48,48 +43,20 @@ Em um [curso](https://cursos.alura.com.br/course/html-css-responsividade-mobile-
 1. HTML
 2. CSS
 3. SwiperJS
-   
-### Front-end
 
-1. 
-2.
-3.
+## Layouts
 
-### Back-end
+### Desktop Layout
 
-1.
-2.
-3.
+<img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/alurabooks-1280px.jpg" alt="Carrossel do AluraBooks">
 
-### Implementação
+### Tablet Layout
 
-1.
-2.
-3.
+<img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/alurabooks-768px.jpg" alt="Carrossel do AluraBooks">
 
-## Processo de Desenvolvimento 
+### Mobile Layout
 
-### (Roteiro / Diario) de desenvolvimento
-
-- Link externo para aba projetos, ou um lugar onde esteja todo relato de desenvolvimento
-
-### Layout Mobile
-
-- Imagens
-
-### Layout Web
-
-- Imagens
-
-### Modelo Conceitual
-
-- Imagens
-
-## Contribuição
-
-- Por que contribuir?
-- Quem contribuiu?
-- Como contribui?
+<img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/alurabooks-480px.jpg" alt="Carrossel do AluraBooks">
 
 ## Autor(es)
 
