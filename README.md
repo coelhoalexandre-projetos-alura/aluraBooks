@@ -18,7 +18,8 @@
   - [Desktop Layout](#desktop-layout)
   - [Tablet Layout](#tablet-layout)
   - [Mobile Layout](#mobile-layout)
-- [Autor](#autores)
+- [Adaptações](#adaptações)
+- [Autor](#autor)
 
 ## Sobre o Projeto
 
@@ -48,26 +49,28 @@ Em um [curso](https://cursos.alura.com.br/course/html-css-responsividade-mobile-
 
 ### Desktop Layout
 
-**Width 1280px**
+**Width 1280px** <br>
 <img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/alurabooks-1280px.jpg" alt="AluraBooks 1280px" height="500px">
 
 ### Tablet Layout
 
-**Width 768px**
+**Width 768px** <br>
 <img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/alurabooks-768px.jpg" alt="AluraBooks 768px" height="500px">
 
 ### Mobile Layout
 
-**Width 480px**
+**Width 480px** <br>
 <img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/alurabooks-480px.jpg" alt="AluraBooks 480px" height="500px">
 
 Obs.: Altura das imagens foram reduzidas para no maximo 500px, para à ver em seu tamanho original clique nelas. Você será redirecionado para o local onde elas foram armazenadas no GitHub.
-## Autor(es)
 
-- Nome(s), redes e forma de contato. 
-- Talvez um breve resumo sobre cada um.
+## Adaptações
 
-Meu nome é **Alexandre Coelho**, sou autor deste ReadMe e estudante de Desenvolvimento Web. [Falar sobre meu papel no projeto, seu eu fiz tudo ou só modifiquei.
+Com exceção de pequenas adaptações estéticas, não há nenhuma grande adaptação.
+
+## Autor
+
+Meu nome é **Alexandre Coelho**, sou autor deste ReadMe e estudante de Desenvolvimento Web. Fiz esse projeto com a orientação da instrutora [**Mônica Hillman**](https://github.com/MonicaHillman), o design foi repassado e minhas mudanças no projeto foram poucas. Há divergencias do meu projeto para o original no botão "Categorias" e no modelo SwiperJS, que busquei algo que ficava mais interessante e semelhante ao que foi mostrado no figma.
 
 Logo abaixo estão os meus principais links, fique a vontade de acessar o que mais lhe interessar:
 
@@ -75,7 +78,8 @@ Logo abaixo estão os meus principais links, fique a vontade de acessar o que ma
 
 <div align="center">
 
-<a href = "https://www.frontendmentor.io/profile/coelhoalexandre" target="_blank"><img src="https://img.shields.io/badge/Frontend_Mentor-black?style=for-the-badge&logo=frontendmentor&logoColor=aqua" alt="FrontEnd Mentor Badge"> ou <a href = "https://www.frontendmentor.io/profile/coelhoalexandre" target="_blank"><img src="https://img.shields.io/badge/Frontend_Mentor-white?style=for-the-badge&logo=frontendmentor&logoColor=blue" alt="FrontEnd Mentor Badge">
 <a href = "https://github.com/coelhoalexandre"><img src="https://img.shields.io/badge/GitHub-%23333?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"></a>
 <a href="https://www.linkedin.com/in/-coelhoalexandre/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
 <a href = "mailto:alexandrecoelhocontato@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-critical?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" alt="Gmail Badge"></a>
+<a href = "https://cursos.alura.com.br/user/coelhoalexandre" target="_blank"><img src="https://img.shields.io/badge/Alura-0747a6?style=for-the-badge&logo=alura&logoColor=white" target="_blank" alt="Alura Badge"></a>
+<a href = "https://www.frontendmentor.io/profile/coelhoalexandre" target="_blank"><img src="https://img.shields.io/badge/Frontend_Mentor-white?style=for-the-badge&logo=frontendmentor&logoColor=blue" alt="FrontEnd Mentor Badge">
