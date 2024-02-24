@@ -48,16 +48,20 @@ Em um [curso](https://cursos.alura.com.br/course/html-css-responsividade-mobile-
 
 ### Desktop Layout
 
-<img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/alurabooks-1280px.jpg" alt="Carrossel do AluraBooks">
+**Width 1280px**
+<img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/alurabooks-1280px.jpg" alt="AluraBooks 1280px" height="500px">
 
 ### Tablet Layout
 
-<img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/alurabooks-768px.jpg" alt="Carrossel do AluraBooks">
+**Width 768px**
+<img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/alurabooks-768px.jpg" alt="AluraBooks 768px" height="500px">
 
 ### Mobile Layout
 
-<img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/alurabooks-480px.jpg" alt="Carrossel do AluraBooks">
+**Width 480px**
+<img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/alurabooks-480px.jpg" alt="AluraBooks 480px" height="500px">
 
+Obs.: Altura das imagens foram reduzidas para no maximo 500px, para à ver em seu tamanho original clique nelas. Você será redirecionado para o local onde elas foram armazenadas no GitHub.
 ## Autor(es)
 
 - Nome(s), redes e forma de contato. 
